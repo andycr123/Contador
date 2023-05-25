@@ -26,16 +26,16 @@ export const Counter = () => {
   return (
     <div className='counter body'>
       <div className='container-text'>
-        <h1 className='title'>Counter</h1>
+        <h1 className='title'>Contador</h1>
         <span className='number' id='number'>{counter}</span>
       </div>
 
       <div className='buttonsCounter'>
-        <button onClick={changeColorDecrease} >decrease</button>
+        <button onClick={changeColorDecrease} >Decremento</button>
 
-        <button onClick={changeColorReset} >reset</button>
+        <button onClick={changeColorReset} >Resetear</button>
 
-        <button onClick={changeColorIncrease} >increase</button>
+        <button onClick={changeColorIncrease} >Incrementae</button>
       </div>
     </div>
   );
